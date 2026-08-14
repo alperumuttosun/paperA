@@ -7718,7 +7718,7 @@ if (nrow(results_df) > 0) {
     scale_y_discrete(labels = crop_labels) +
     labs(
       title    = "G_CMIP1: ISIMIP3b/CMIP6-Based Warming Sensitivity, All 8 Crops",
-      subtitle = "Thin bars = regression 95% CI | Wide translucent bars = 5-GCM model range (not a confidence interval)",
+      subtitle = "Wide translucent bars = 5-GCM model range (not a confidence interval)",
       caption  = "2081-2100 (secondary) assumes the historically-estimated M4 relationship remains unchanged over the full horizon -- see Discussion for this caveat.",
       x = "Yield change (%)", y = NULL) +
     theme_bw(base_size = 10) +
