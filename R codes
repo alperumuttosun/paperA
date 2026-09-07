@@ -3,8 +3,7 @@
 
 # ==============================================================================
 # STEP 00: DATA PREPARATION PIPELINE
-# Global multi-crop panel: annual climate variables + FAOSTAT yield data
-#
+
 # Pipeline overview:
 #   Step 1 : CRU TS4.09 + CROPGRIDS -> monthly climate panel     -> panelv1_*
 #   Step 2 : Annual aggregation + FAO yield/CO2/GDP join + filters -> panelv2_*
