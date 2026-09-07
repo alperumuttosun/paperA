@@ -1,7 +1,7 @@
 # 
-# Climate Sensitivity of Eight Crops — Analysis Code
+# Analysis Code
 
-This repository contains the R analysis pipeline behind the manuscript *"Climate Sensitivity of Eight Crops: A Global Panel Analysis."* It estimates how annual maximum temperature (TMX) is associated with crop yield for eight major crops (wheat, barley, oats, rye, rice, maize, soybean, sorghum) using a global country-level panel, 1961–2024.
+Estimates how annual maximum temperature (TMX) is associated with crop yield for eight major crops (wheat, barley, oats, rye, rice, maize, soybean, sorghum) using a global country-level panel, 1961–2024.
 
 All analysis is written in **R**. Each step is a standalone script that reads data, runs an analysis, and saves its results to an Excel file plus a set of figures.
 
